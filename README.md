@@ -5,7 +5,7 @@ Home: https://github.com/ekstroem/MESS
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A mixed collection of useful and semi-useful diverse statistical functions, some of which may even be referenced in The R Primer book.
 
