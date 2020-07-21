@@ -45,7 +45,7 @@ requirements:
     - r-mvtnorm
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
+    - {{native}}gcc-libs         # [win]
     - r-mass
     - r-matrix
     - r-rcpp
@@ -65,10 +65,11 @@ test:
 
 about:
   home: https://github.com/ekstroem/MESS
-  license: GPL-2
+  license: GPL-2.0-only
   summary: A mixed collection of useful and semi-useful diverse statistical functions, some of which may even be referenced in The R Primer book.
   license_family: GPL2
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
