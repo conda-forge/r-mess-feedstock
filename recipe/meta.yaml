@@ -45,7 +45,7 @@ requirements:
     - r-mvtnorm
   run:
     - r-base
-    - {{native}}gcc-libs         # [win]
+    - {{ native }}gcc-libs         # [win]
     - r-mass
     - r-matrix
     - r-rcpp
