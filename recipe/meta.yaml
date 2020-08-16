@@ -1,4 +1,4 @@
-{% set version = "0.5.6" %}
+{% set version = "0.5.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MESS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MESS/MESS_{{ version }}.tar.gz
-  sha256: c64740837950626056d4f70fa3df6cf2e6d8f02e1a0697eee1b99676078d0adc
+  sha256: 48d23e83b75a33e0ca101d0ce89a0717ef82d468b989c4ef1020ffaf0fd06e30
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -65,11 +65,11 @@ test:
 
 about:
   home: https://github.com/ekstroem/MESS
-  license: GPL-2
-  summary: A mixed collection of useful and semi-useful diverse statistical functions, some of
-    which may even be referenced in The R Primer book.
+  license: GPL-2.0-only
+  summary: A mixed collection of useful and semi-useful diverse statistical functions, some of which may even be referenced in The R Primer book.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
