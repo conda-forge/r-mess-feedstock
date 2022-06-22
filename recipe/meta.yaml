@@ -1,4 +1,4 @@
-{% set version = "0.5.7" %}
+{% set version = "0.5.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MESS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MESS/MESS_{{ version }}.tar.gz
-  sha256: 48d23e83b75a33e0ca101d0ce89a0717ef82d468b989c4ef1020ffaf0fd06e30
+  sha256: b57dff943a130830a24d87fe2e8f8b766cf18398c9c09e0a020d5dd183f9d72d
 
 build:
   merge_build_host: true  # [win]
