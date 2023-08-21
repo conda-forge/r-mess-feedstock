@@ -3,6 +3,7 @@ About r-mess-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mess-feedstock/blob/main/LICENSE.txt)
 
+
 About r-mess
 ------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/ekstroem/MESS
 Package license: GPL-2.0-only
 
 Summary: A mixed collection of useful and semi-useful diverse statistical functions, some of which may even be referenced in The R Primer book.
+
 About r-mess
 ------------
 
