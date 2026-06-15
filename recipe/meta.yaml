@@ -12,7 +12,7 @@ source:
   sha256: f907763a0ca67f3a59bc3d51ab1cbdde78a4599ab7612a61e2e50cda282eb1e4
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -63,13 +63,13 @@ requirements:
     - r-glmnet
     - r-kinship2
     - r-mvtnorm
+    - libblas
+    - liblapack
   run:
     - r-base
     - r-mass
     - r-matrix
     - r-rcpp
-    - r-rcpparmadillo
-    - r-rcppparallel
     - r-clipr
     - r-geem
     - r-geepack
