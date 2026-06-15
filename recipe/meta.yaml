@@ -63,13 +63,12 @@ requirements:
     - r-glmnet
     - r-kinship2
     - r-mvtnorm
+    - libblas
   run:
     - r-base
     - r-mass
     - r-matrix
     - r-rcpp
-    - r-rcpparmadillo
-    - r-rcppparallel
     - r-clipr
     - r-geem
     - r-geepack
