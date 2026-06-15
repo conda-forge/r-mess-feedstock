@@ -64,6 +64,7 @@ requirements:
     - r-kinship2
     - r-mvtnorm
     - libblas
+    - liblapack
   run:
     - r-base
     - r-mass
